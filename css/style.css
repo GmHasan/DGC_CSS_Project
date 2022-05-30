@@ -27,7 +27,7 @@ body {
 }
 
 .menu-bar ul {
-    margin: 5px;
+    margin: 3px;
     padding: 0;
 }
 
@@ -57,7 +57,11 @@ body {
 }
 
 .headingimage {
-    height: 300px;
+    height: 500px;
+}
+
+.headingimage img{
+    height: 500px;
 }
 
 .notice {
@@ -68,19 +72,19 @@ body {
 }
 
 .notice p {
-    display: inline-block;
     font-size: 20px;
     text-transform: capitalize;
-    margin: 0;
+    /* p tag er by default margin thake */
+    margin: 0px;
     padding: 10px 0 0 10px;
     font-weight: bold;
-    width: 10%;
+    width: 15%;
     box-sizing: border-box;
     float: left;
 }
 
 .notice marquee {
-    width: 90%;
+    width: 85%;
     float: left;
     box-sizing: border-box;
     margin-top: 10px;
